@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <title>Buscador Canciones</title>
+</head>
+
+<body>
+    <div class="container-fluid bg-dark pb-4">
+        <!-- baner del header -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="imagen1 d-block w-100 " style="height: 250px;"></div>
+                    <div class="carousel-caption  d-block">
+                        <h5>AlejandroNes ♫</h5>
+                        <p>Encuenta la letra de tu Cancion Favorita</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="imagen2 d-block w-100 " style="height: 250px;"></div>
+                    <div class="carousel-caption  d-block">
+                        <h5>AlejandroNes ♫</h5>
+                        <p>Encuenta la letra de tu Cancion Favorita</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="imagen3 d-block w-100 " style="height: 250px;"></div>
+                    <div class="carousel-caption  d-block">
+                        <h5>AlejandroNes ♫</h5>
+                        <p>Encuenta la letra de tu Cancion Favorita</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </a>
+        </div>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <h3 class="text-info text-center display-6 mb-4">Buscar Canción</h3>
+                    <!-- formulario -->
+                    <form id="formulario">
+                        <label class="text-light form-label" for="artista">Artista</label>
+                        <input class=" form-control mb-3" type="text" placeholder="ingrese artista" id="artista">
+                        <label class="text-light form-label" for="artista">Canción</label>
+                        <input class=" form-control mb-3" type="text" placeholder="ingrese canción" id="cancion">
+                        <input class="btn btn-outline-info my-2 w-100 mb-4" type="submit" value="BUSCAR">
+                    </form>
+                    <div id="alertaSMS"></div>
+                </div>
+                <div class="col-12 col-sm-6 text-center d-flex justify-content-center respuesta">
+                    <div class="alert alert-dark d-flex align-items-center" role="alert">
+                        <p><strong>Aquí</strong> se mostrara tu canción</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark border border-secondary text-center p-1 d-flex flex-column flex-sm-row justify-content-sm-around">
+        <h4 class="text-secondary">AlejandroNes</h4>
+        <p class="text-secondary">Todos los derechos reservados &copy</p>
+    </footer>
+
+
+    <!-- javascript bootstrap -->
+    <script src="./assets/bootstrap-5.0.0-beta1-dist/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

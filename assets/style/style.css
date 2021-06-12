@@ -1,0 +1,33 @@
+.imagen1 {
+    background: #000428c7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,
+            #004e92dc,
+            #000428da);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92da, #000428d2),
+        url("../images/img1.jpg");
+    background-attachment: fixed;
+}
+.imagen2 {
+    background: #000428c7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,
+            #860092dc,
+            #28001cda);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #920092da, #280021d2),
+        url("../images/img2.jpg");
+    background-attachment: fixed;
+}
+.imagen3 {
+    background: #000428c7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,
+            #009220dc,
+            #002812da);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #009213da, #002811d2),
+        url("../images/img3.jpg");
+    background-attachment: fixed;
+}
